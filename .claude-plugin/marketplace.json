@@ -1,0 +1,16 @@
+{
+  "name": "momo-standards",
+  "description": "momojs 各项目共用的协作与写作规范",
+  "owner": {
+    "name": "momojs"
+  },
+  "plugins": [
+    {
+      "name": "momo-standards",
+      "description": "momojs 协作与写作规范 Skill，包括简体中文写作规范",
+      "source": "./",
+      "strict": false,
+      "skills": ["./skills/zh-cn-writing"]
+    }
+  ]
+}

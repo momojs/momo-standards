@@ -1,0 +1,44 @@
+# AutoCorrect 配置：https://github.com/huacnlee/autocorrect
+# 规则级别：0 关闭，1 错误，2 警告
+rules:
+  # 中文与英文、数字之间加空格
+  space-word: 1
+  # 中文与标点之间的空格
+  space-punctuation: 1
+  # 中文与半角括号之间加空格
+  space-bracket: 1
+  # 中文与行内代码之间加空格
+  space-backticks: 1
+  # 连字符用于复合词与编号，前后不加空格
+  space-dash: 0
+  space-dollar: 0
+  # 中文语境使用全角标点
+  fullwidth: 1
+  # 全角标点前后不加空格
+  no-space-fullwidth: 1
+  # 全角字母与数字改为半角
+  halfwidth-word: 1
+  # 英文语境使用半角标点
+  halfwidth-punctuation: 1
+  spellcheck: 2
+
+context:
+  # 不修改代码块内容
+  codeblock: 0
+
+spellcheck:
+  words:
+    - Android
+    - iOS
+    - iPhone
+    - App Store
+    - AppStore = App Store
+    - Wi-Fi
+    - WiFi = Wi-Fi
+    - GitHub
+    - JavaScript
+    - TypeScript
+    - Node.js
+    - nodejs = Node.js
+    - NodeJS = Node.js
+    - LaTeX
